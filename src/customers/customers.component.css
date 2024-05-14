@@ -11,7 +11,7 @@
     text-align: center;
     opacity: 0;
     animation: fade 1s ease-in forwards;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Times New Roman', Times, serif;
     margin-left: 30px;
     margin-right: 30px;
 }
@@ -34,13 +34,19 @@ h3 {
     text-align: right;
 }
 
-.item {
-    max-width: 60%;
-    margin: 0 auto;
-    color: whitesmoke;
-    font-style: italic;
-    background: linear-gradient(to top right, darkslateblue, darkcyan);
-    border: 2px solid darkcyan;
-    border-radius: 5px;
+.reviews {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.item {
+    margin-bottom: 20px;
+    max-width: 60%;
+    color: whitesmoke;
+    font-style: normal;
+    background-color:  darkcyan;
+    border: 2px solid cyan;
+    border-radius: 5px;
 }
