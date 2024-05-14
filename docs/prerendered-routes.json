@@ -1,0 +1,7 @@
+{
+  "routes": [
+    "/company",
+    "/customers",
+    "/packages"
+  ]
+}
